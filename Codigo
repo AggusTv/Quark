@@ -1,0 +1,48 @@
+#include <iostream>
+
+using namespace std;
+
+class Tiendaderopa 
+{
+private:
+	char nombre;
+	char apellido;
+	char codigodevendedor;
+public: 
+	void login();
+	void menu();
+	void finalizar();
+	
+};
+
+void Tiendaderopa::login()
+{
+	cout << "Cotizador Express // Agustin reta";
+	cout << "\n";
+	cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+	cout << "\n";
+	cout << "Nombre de la tienda // Direccion de la tienda";
+	cout << "\n";
+	cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+	cout << "\n";
+	cout << "Nombre del vendedor // Codigo del vendedor";
+	cout << "\n";
+	cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+	cout << "\n";
+}
+void Tiendaderopa::menu()
+{
+	cout << "1)Prendas";
+	cout << "\n";
+	cout << "2)Cotizaciones";
+	cout << "\n";
+	cout << "3)Salir del menu";
+	cout << "\n";
+}
+
+	int main()
+{
+	Tiendaderopa tiendita;
+	tiendita.login();
+	tiendita.menu();
+}
